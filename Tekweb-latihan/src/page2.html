@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <style>
+        .main{
+            width: 100%;
+            height: 15vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(R.jpeg);
+            background-size: cover;
+            background-position: center;
+        }
+        .konten{
+            width: 900px;
+        }
+        .badan{
+            width: 600px;
+        }
+        .gambar{
+            background-image: url(R.jpeg);
+            height: 200px;
+            width: 100px;
+        }
+    </style>
+    <!-- ingat responsivenya -->
+</head>
+<body>
+
+    <div class="main">
+        <!-- header -->
+        <div class="w-11/12 m-auto p-9 pt-2 flex justify-between items-center ">
+            <label class="text-4xl text-white font-bold w-32 cursor-pointer">Pojok Desa</label>
+            <nav >
+                <ul class="">
+                    <li class="float-left mr-16">
+                        <a href="#" class="text-white hover:text-xl hover:text-lime-500 active:text-lime-900 font-bold">HOME</a>
+                    </li>
+                    <li class="float-left mr-16">
+                        <a href="#" class="text-white hover:text-xl hover:text-lime-500 active:text-lime-900 font-bold">VIEWS</a>
+                    </li>
+                    <li class="float-left mr-16">
+                        <a href="#" class="text-white hover:text-xl hover:text-lime-500 active:text-lime-900 font-bold">NEWS</a>
+                    </li>
+                    <li class="float-left mr-16">
+                        <a href="#" class="text-white hover:text-xl hover:text-lime-500 active:text-lime-900 font-bold">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    <!-- konten dan sidebar -->
+    <div class="konten m-auto">
+        <div class="badan float-left border border-sky-800">
+            <div class="gambar"></div>
+            <h1 class="text-6xl font-bold font-mono">Ini Judul</h1>
+            <p class="text-xl mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, rem recusandae, temporibus ad asperiores adipisci veritatis ab placeat, incidunt modi ea enim? Explicabo ratione beatae quisquam, laudantium nemo ducimus commodi!</p>
+        </div>
+        <div class="float-left ml-6 shadow-sm">
+            <h1 class="text-2xl font-bold mb-2 border-b border-orange-600 p-1">NEWS</h1>
+            <nav class="">
+                <ul class="b">
+                    <li class="border-b-2 p-4 font-bold hover:text-orange-300">
+                        <a href="#">Pantai Pertimbangan</a>
+                    </li>
+                    <li class="border-b-2 p-4 font-bold hover:text-orange-300">
+                        <a href="#">Air Terjun Pengalaman</a>
+                    </li>
+                    <li class="p-4 font-bold hover:text-orange-300">
+                        <a href="#">Gunung Berapi</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+
+</body>
+</html>
